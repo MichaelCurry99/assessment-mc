@@ -1,6 +1,12 @@
 
-body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#container{
+    height:1500px;
+    width: 1500px;
+    background-color: blue;
+}
+
+/* body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 
 p{
@@ -20,7 +26,7 @@ header{
     width: 100rem;
     margin-left:-0.5%;
     height:80px;
-    
+    margin-top: -0.6%;
 
 }
 
@@ -41,3 +47,33 @@ h3{
     margin-left: 68%;
 
 }
+
+h4{
+    font-size: 20px;
+    color: black;
+    margin-top: -3.1%;
+    margin-left: 88%;
+}
+
+button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    opacity: 67%;
+    margin-top: 26%;
+    margin-left: 47%;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.violet{
+    background-color: blueviolet;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.blue{
+    background-color:blue;
+} */
