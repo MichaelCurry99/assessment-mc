@@ -18,11 +18,11 @@ let color = ["blue","yellow","violet"];
 
 button.addEventListener('click', function(){
 
-   var randomColor = color[Math.floor(Math.floor() * color.length)]
+   var randomColor = color[Math.floor(Math.random() * color.length)]
 
-let container = document.getElementById('container');
+let cody = document.getElementById('body');
 
-container.style.background = randomColor;
+body.style.background = randomColor;
 })
 
 

@@ -1,11 +1,5 @@
 
-#container{
-    height:1500px;
-    width: 1500px;
-    background-color: blue;
-}
-
-/* body{
+body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 
@@ -76,4 +70,4 @@ button{
 
 .blue{
     background-color:blue;
-} */
+}
