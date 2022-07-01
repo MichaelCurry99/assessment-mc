@@ -2,7 +2,7 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
-
+/* I only need a font-family for the body. */
 p{
     margin-left: 30%;
     margin-top: 20%;
@@ -12,7 +12,7 @@ p{
     height: 50px;
     opacity: 70%;
 }
-
+/* This will be the background placed on "background color" */
 header{
     background-color:rgb(224, 243, 140);
     color:black;
@@ -23,39 +23,39 @@ header{
     margin-top: -0.6%;
 
 }
-
+/* The box on top of the page */
 h1{
     color: rgb(114, 96, 96);
     margin-left: 35%;
     margin-top: -4.3%;   
 }
-
+/* For "Background Color" to be displayed. */
 h2{
     margin-top: -28%; 
     margin-left: 15%;
 }
-
+/* For "Color Flipper" to be displayed. */
 h3{
     color: black;
     margin-top: -3.5%;
     margin-left: 68%;
 
 }
-
+/* For "Simple" to be displayed. */
 h4{
     font-size: 20px;
     color: black;
     margin-top: -3.1%;
     margin-left: 88%;
 }
-
+/* For "Hex" to be displayed. */
 button{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
     opacity: 67%;
     margin-top: 26%;
     margin-left: 47%;
 }
-
+/* For "Button" to be displayed. */
 /* .yellow{
   background-color: yellow;
 }
@@ -71,3 +71,4 @@ button{
 .blue{
     background-color:blue;
 } */
+/* trial and error */
