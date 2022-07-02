@@ -5,6 +5,8 @@
  ### Why pay a fortune teller when you can just program your fortune yourself?
  - Store the following into variables: number of children, partner's name, geographic location, job title.
 
+ START HERE:
+
 let numberOfChildren = [];
 let partnersName = [];
 let geographicLocation = [];
@@ -22,20 +24,21 @@ alert(`You will be a ${x[0]} in ${x[1]}, and married to ${x[2]} with ${x[3]} kid
 ### Want to find out how old you'll be? Calculate it!
  - Store your birth year in a variable.
 
-let birthYear = ["1999"];
-
  - Store a future year in a variable.
 
-let futureYear = ["2034","34","35"];
-
  - Calculate your 2 possible ages for that year based on the stored values.
-
- if(futureYear > birthYear ){
-     alert(`I will be either ${futureYear[1]} or ${futureYear[2]} in ${futureYear[0]}`);
 
  - For example, if you were born in 1998, then in 2036 you'll be either 37 or 38, depending on what month it is in 2036.
 
  - Output them to the screen like so: "I will be either NN or NN in YYYY", substituting the values.
+START HERE:
+
+let birthYear = ["1999"];
+
+let futureYear = ["2034","34","35"];
+
+ if(futureYear > birthYear ){
+     alert(`I will be either ${futureYear[1]} or ${futureYear[2]} in ${futureYear[0]}`);
 
 ## The Lifetime Supply Calculator
 ### Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
@@ -44,16 +47,19 @@ let futureYear = ["2034","34","35"];
  - Store an estimated amount per day (as a number).
  - Calculate how many you would eat total for the rest of your life.
  - Output the result to the screen like so: "You will need NN to last you until the ripe old age of X".
+START HERE:
 
 let age = ["22"];
 let maxAge = ["64"];
 let snacksADay = ["2"]
 
 function snackLife(){
-  let snackDaily = 
+  let snackDaily = maxAge / snacksADay;
+console.log(snackDaily);
 
+alert(`You will need ${snackDaily} to last you until the ripe old age of ${maxAge}`);
 }
-
+snackLife()
 
 
 # Exercises: Arrays 
@@ -70,6 +76,8 @@ function snackLife(){
 
 
  - Within the function also use an ```if```-conditional statement that checks if the number of items within the array are less than 4
+START HERE:
+
 
  let myAlphabet = ['A', 'B', 'C', 'D','E','F', 'G'];
 
@@ -90,6 +98,9 @@ function myAlphabetLength(){
  - Declare a function ```checkFunc``` that takes a string and a boolean as parameters
 
  - Call the function using 2 arguments
+START HERE:
+(Comeback Saturday)
+
 
 ## 3.
 
@@ -98,6 +109,13 @@ function myAlphabetLength(){
  - ```console.log``` each item in the array
 
  - Also console.log the index in each iteration
+START HERE:
+
+let planets = ["Jupiter","Saturn","Pluto","Uranus","Mars"];
+for(i=0; i< planets.length; i++){
+console.log(planets[0],planets[1],planets[2],planets[3],planets[4]);
+}
+console.log([0],[1],[2],[3],[4]);
 
 ## 4.
  - Declare and initialize an array called
@@ -105,6 +123,9 @@ function myAlphabetLength(){
  ```wowDatatypes```
 
 The array must have 5 different data types (NOT objects)
+START HERE:
+
+let wowDatatypes = ["Boolean","Null","Undefined","Numeric","String"];
 
 # Color Flipper
 - Navigate to the color flipper folder and use the provides html, css and javascript files
