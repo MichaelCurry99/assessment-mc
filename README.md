@@ -98,8 +98,21 @@ function myAlphabetLength(){
  - Declare a function ```checkFunc``` that takes a string and a boolean as parameters
 
  - Call the function using 2 arguments
+
+ 
 START HERE:
-(Comeback Saturday)
+function checkFunc (cool, hot = true){
+this.cool = ["65","75"];
+this.hot = true;
+
+for(i=0; i< this.length; i++){
+   console.log(cool);
+}
+return(false);
+// if()
+ }
+ checkFunc()
+ 
 
 
 ## 3.

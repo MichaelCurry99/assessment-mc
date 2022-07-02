@@ -53,4 +53,17 @@
 // }
 // console.log([0],[1],[2],[3],[4])
 
-let wowDatatypes = ["Boolean","Null","Undefined","Numeric","String"]
+// let wowDatatypes = ["Boolean","Null","Undefined","Numeric","String"]
+
+function checkFunc (cool, hot = true){
+this.cool = ["65","75"];
+this.hot = true;
+
+for(i=0; i< this.length; i++){
+   console.log(cool);
+}
+return(false);
+// if()
+ }
+ checkFunc()
+ 
