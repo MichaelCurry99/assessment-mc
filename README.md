@@ -45,6 +45,15 @@ let futureYear = ["2034","34","35"];
  - Calculate how many you would eat total for the rest of your life.
  - Output the result to the screen like so: "You will need NN to last you until the ripe old age of X".
 
+let age = ["22"];
+let maxAge = ["64"];
+let snacksADay = ["2"]
+
+function snackLife(){
+  let snackDaily = 
+
+}
+
 
 
 # Exercises: Arrays 
@@ -59,19 +68,22 @@ let futureYear = ["2034","34","35"];
      6
  - Write a function called ```myAlphabetLength``` which console.logs the length of the array
 
- function myAlphabetLength(){
-
-   console.log(myAlphabet.length)
-
-   if(myAlphabet[0]< myAlphabet[4]){
-    alert(`${myAlphabet[0]} is less than ${myAlphabet[1]}`)
-   }
-
- }
 
  - Within the function also use an ```if```-conditional statement that checks if the number of items within the array are less than 4
 
+ let myAlphabet = ['A', 'B', 'C', 'D','E','F', 'G'];
+
+function myAlphabetLength(){
+
+    console.log(myAlphabet.length)
  
+    if(myAlphabet[0]< myAlphabet[4]){
+     alert(`${myAlphabet[0]} is less than ${myAlphabet[1]}`)
+    }
+ 
+  }
+  myAlphabetLength() // calling the function creates the result!
+
 
 ## 2.
 

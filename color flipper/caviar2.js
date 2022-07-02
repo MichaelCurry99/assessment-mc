@@ -16,4 +16,15 @@
 //     alert(`I will be either ${futureYear[1]} or ${futureYear[2]} in ${futureYear[0]}`);
 // }
 
+let myAlphabet = ['A', 'B', 'C', 'D','E','F', 'G'];
 
+function myAlphabetLength(){
+
+    console.log(myAlphabet.length)
+ 
+    if(myAlphabet[0]< myAlphabet[4]){
+     alert(`${myAlphabet[0]} is less than ${myAlphabet[1]}`)
+    }
+ 
+  }
+  myAlphabetLength() // calling the function creates the result!
