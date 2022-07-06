@@ -98,7 +98,6 @@ function myAlphabetLength(){
  - Declare a function ```checkFunc``` that takes a string and a boolean as parameters
 
  - Call the function using 2 arguments
-
  
 START HERE:
 function checkFunc (cool, hot = true){
